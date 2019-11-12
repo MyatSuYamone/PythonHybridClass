@@ -53,12 +53,12 @@ for w in words:
 	print(w,len(w))
 
 #Program 3 sample 1
-fruits = ['apple', 'banana', 'pinapple' , 'cucumber', 'orange']
+fruits = ['apple', 'banana', 'pineapple' , 'cucumber', 'orange']
 for f in fruits:
 	print(f,len(f))
 
 #Program 3 sample 2
-fruits = ['apple', 'banana', 'pinapple' , 'cucumber', 'orange']
+fruits = ['apple', 'banana', 'pineapple' , 'cucumber', 'orange']
 for x in fruits:
 	print(x,len(x))
 
@@ -94,14 +94,14 @@ list(range(4))
 
 #Program 8
 
-fruits = ['apple', 'banana', 'pinapple' , 'pear', 'orange','apple','banana','apple']
+fruits = ['apple', 'banana', 'pineapple' , 'pear', 'orange','apple','banana','apple']
 fruits.count('pineapple')
 fruits.count('banana')
 fruits.count('apple')
 
 #Program 8.1
 
-fruits = ['apple', 'banana', 'pinapple' , 'pear', 'orange','apple','banana','apple']
+fruits = ['apple', 'banana', 'pineapple' , 'pear', 'orange','apple','banana','apple']
 fruits.index('pineapple')
 fruits.index('pear')
 fruits.index('banana')
@@ -110,21 +110,21 @@ fruits.index('apple',1)
 
 #Program 8.2
 
-fruits = ['apple', 'banana', 'pinapple' , 'pear', 'orange','apple','banana','apple']
+fruits = ['apple', 'banana', 'pineapple' , 'pear', 'orange','apple','banana','apple']
 fruits.reverse()
 fruits
 
 #Program 8.3
 
-fruits = ['apple', 'banana', 'pinapple' , 'pear', 'orange','apple','banana','apple']
+fruits = ['apple', 'banana', 'pinepple' , 'pear', 'orange','apple','banana','apple']
 fruits.sort()
 fruits
 
 #Program 8.4
 
-fruits = ['apple', 'banana', 'pinapple' , 'pear', 'orange','apple','banana','apple']
+fruits = ['apple', 'banana', 'pineapple' , 'pear', 'orange','apple','banana','apple']
 fruits.append('durian')
-fruits
+fruitse
 
 fruits.append('strawberry')
 fruits.append('cherry')
@@ -132,9 +132,22 @@ fruits
 
 #Program 8.5
 
-fruits = ['apple', 'banana', 'pinapple' , 'pear', 'orange','apple','banana','apple']
+fruits = ['apple', 'banana', 'pineapple' , 'pear', 'orange','apple','banana','apple']
 fruits.pop()
 fruits
+
+#Program 8.6
+
+fruits = ['apple', 'banana', 'pineapple' , 'pear', 'orange','apple','banana','apple']
+fruits.remove('apple')
+fruits
+
+#Program 8.6 sample
+fruits.remove('banana')
+fruits.remove('pineapple')
+fruits
+
+
 
 
 
