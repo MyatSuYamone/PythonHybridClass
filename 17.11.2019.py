@@ -35,8 +35,8 @@ combs
 
 #Prob 3
 
- vec = [-4,-2,0,2,4]
- [x*2 for x in vec]
+vec = [-4,-2,0,2,4]
+[x*2 for x in vec]
 
 #Prob 3.1
 
