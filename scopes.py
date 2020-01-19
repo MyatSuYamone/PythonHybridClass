@@ -75,8 +75,8 @@ Greatre than or equal to   -> x >= y
 
 def func(x):
 	print('x is', x)
-	x = 2
-	print('Changed local x to', x)
+print('x is still', x)
+
 
 x = 10
 func(x)
